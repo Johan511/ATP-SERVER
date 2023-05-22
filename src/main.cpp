@@ -1,4 +1,4 @@
-#include <iostream>
+#include "../includes/main.hpp"
 
 using std::cin, std::cout, std::endl;
 
