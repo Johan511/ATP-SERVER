@@ -3,6 +3,6 @@
 using std::cin, std::cout, std::endl;
 
 int main() {
-  cout << "ATP - Server" << endl;
+  cout << "Hello : ATP - Server" << endl;
   return 0;
 }
