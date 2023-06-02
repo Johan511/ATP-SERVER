@@ -1,8 +1,4 @@
 #include <cstdint>
-#include <functional>
-#include <iostream>
-#include <vector>
-#include <bits/stdc++.h>
 
 namespace sorts {
 
@@ -35,7 +31,6 @@ template <typename type> void insertion_sort(type &v) {
     }
 }
 
-template <typename type> void sort(void (*f)(type&), type& v) { (*f)(v); }
+template <typename type> void sort(void (*f)(type &), type &v) { (*f)(v); }
 
 } // namespace sorts
-
