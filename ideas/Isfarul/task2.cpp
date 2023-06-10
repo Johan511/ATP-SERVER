@@ -22,7 +22,7 @@ void start_accept(tcp::acceptor &acceptor_) {
         static_cast<tcp::socket>(acceptor_.get_executor());
     acceptor_.async_accept([&](std::error_code error, tcp::socket socket) {
         if (!error) {
-            cout << MESSAGE + '\n';
+            cout << std::string(MESSAGE) + '\n';
             socket.async_read_some(
                 boost::asio::buffer(data_, max_length),
                 [](std::error_code error, std::size_t length) {
