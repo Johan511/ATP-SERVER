@@ -30,3 +30,8 @@ CS22B013
 Vaishnavi Rajesh
 CS22B023
 [Github: vaishnaviR634](https://github.com/vaishnaviR634)
+
+Aditya Palwe
+CS22B003
+[Github: AytidaXd](https://github.com/AytidaXd)
+
